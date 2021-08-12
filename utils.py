@@ -13,7 +13,7 @@ def fibonaci(sequence):
         if y>=2:
            i = i+1  
            f = (y-1)+(y-2)
-           f.append(fibonaci_array)
+           fibonaci_array.append(f)
         if i == sequence:
             return f"Fibonaci number from sequence {sequence} = {fibonaci_array[y]}"
         else:
