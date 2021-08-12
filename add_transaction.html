@@ -1,0 +1,19 @@
+ <!-- use layout.html to inherit structure -->
+{% extends finance/layout.html %}
+<!--block body reresent place where we can plugin modification-->
+{% block body %}
+<form method="post">
+    <h2>Create transaction</h2>
+
+    {% csrf_token %}
+<!-- csrf token represent protection from hacking-->
+
+    <table>
+        {{ user_form }}
+        {{ transaction_form }}
+    </table>
+
+    <button>Add</button>
+
+</form>
+{% endblock %}
