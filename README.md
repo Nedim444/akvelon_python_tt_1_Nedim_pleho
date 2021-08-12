@@ -1,5 +1,6 @@
 README for TASK AKVELON PYTHON SDE CANDIDATE
 Readme will organize by step. 
+
 First task
 1. How I use Anaconda Prompt, first step is based on defining environment. 
 >>conda create -n ex #where 'ex' is the name of your new conda environment
@@ -12,6 +13,7 @@ First task
 5. Create app in project directory
 >>python manage.py startapp 'app'
 For this task I use visual code editor because I never use Swagger. 
+
 Steps in Visual Code Editor
 1. Add app in setings.py "INSTALED APPS". After that, we can change database, in PostgreSQL or MySQL. By Default is sqlite3.
 2. Add path from app in urls.py of project.
@@ -27,8 +29,9 @@ For example we create function for create, update, edit, delete information and 
 7. Define path from all function in urls.py file.
 8. Create forms.py file in app and make class forms for our entity. 
 We will use that forms class for performin function form view. 
-9. On the end of first task, we need define templates. 
-That templates will use html language.
+9. On the end of first task, we need define templates. That templates will use html language.
+10. I create just one template for add transaction like example applying this function. 
+
 Second task
 Implement function which will return n'th number of Fibonaci sequence.
 1. Read about Fibonaci sequence
